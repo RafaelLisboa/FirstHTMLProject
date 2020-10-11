@@ -8,6 +8,7 @@ html, body {
 }
 
 .header{
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #211f45;
@@ -20,6 +21,7 @@ html, body {
     margin: 19px;
 }
 .container-banner{
+    min-width: 1200px;
     background-image: url("../images/header_bg.png");
     height: 550px;
     background-position: center;
@@ -93,6 +95,7 @@ html, body {
     margin-top: 30px;
 }
 .container-details{
+    min-width: 1200px;
     padding:70px 0;
     background-color: rgba(195, 195, 195, 0.87);
     text-align: center;
@@ -117,6 +120,7 @@ html, body {
     background-size: 100% 100%;
 }
 .icons{
+    min-width: 1200px;
     padding: 90px 0;
 }
 .icons h2{
