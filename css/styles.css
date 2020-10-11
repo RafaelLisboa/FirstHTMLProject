@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #211f45;
+}
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.center > img {
+    margin: 19px;
+}
+.container-banner{
+    background-image: url("../images/header_bg.png");
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.container-banner .center {
+    height: 100%;
+}
+.center .form{
+    padding: 15px;
+    width: 440px;
+    height: 100%;
+    background-color: white;
+    float: right;
+    border: 8px solid #ccc;
+    text-align: center;
+}
+.form h2{
+    font-size: 22px;
+    color: #999;
+}
+.form  p{
+    margin-top: 10px;
+    text-align: left;
+}
+.input-container{
+    text-align: left;
+    margin-top: 50px;
+}
+.input-container span, p{
+    color: #999999;
+    font-size: 17px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.input-container input[type="text"], input[type="email"], input[type="tel"]{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #999999;
+}
+.input-submit{
+    margin: 15px auto;
+}
+.input-submit > input[type="submit"]{
+    background-color: #3f178c;
+    border: 0;
+    width: 300px;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.input-submit > input[type="submit"]:focus{
+    border: none;
+}
+.container-list{
+    padding: 30px;
+    margin-top: 80px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33,35,67,0.7);
+}
+.container-list ul{
+    list-style: inside;
+
+}
+.container-list ul>li{
+    color: white;
+    margin-top: 30px;
+}
+.container-details{
+    padding:70px 0;
+    background-color: rgba(195, 195, 195, 0.87);
+    text-align: center;
+}
+.container-details h2{
+    font-weight: normal;
+}
+.container-details p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    margin: 15px auto;
+}
+.arrow{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 90px;
+    left: 50%;
+    margin-left: -20px;
+    background-image: url("../images/arrow.png");
+    background-size: 100% 100%;
+}
+.icons{
+    padding: 90px 0;
+}
+.icons h2{
+    text-align: center;
+    color: #462643;
+    font-weight: normal;
+}
+.container-icons{
+    text-align: center;
+    margin-top: 40px;
+}
+.text-container-single{
+    padding:10px 25px;
+    text-align: justify;
+}
+.container-single-icons{
+    float: left;
+    width: 33.33%;
+}
