@@ -6,6 +6,9 @@
 html, body {
     height: 100%;
 }
+.clear{
+    clear: both;
+}
 
 .header{
     min-width: 1200px;
@@ -140,4 +143,16 @@ html, body {
 .container-single-icons{
     float: left;
     width: 33.33%;
+}
+
+.footer{
+    margin-top: 30px;
+    border-top: 3px solid #8888;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer p{
+    margin-top: 10px;
+    color: #8888;
+
 }
