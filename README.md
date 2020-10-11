@@ -2,14 +2,14 @@
 Project with HTML and CSS Pure
 
 
-# Este é o meu primeiro projeto utilizando HTML e CSS puro.
+## This is my first project using pure HTML and CSS.
 
-## Objetivo:
+# Objective:
 
-  Praticar e com isso fixar conceito de dimensões  e espaçamentos com elementos e divs, além da estilização CSS e todas as possibilidades que ela traz
+  Practice and thereby fix the concept of dimensions and spacing with elements and divs, in addition to CSS styling and all the possibilities it brings
 
-## Aprendizados:
+# Learnings:
 
-  CSS - Melhor espaçamentos entre elementos, conceitos de display, propriedades de elementos e sub-classes
+  CSS - Better spacing between elements, display concepts, element properties and sub-classes
 
-  HTML - Como incluir melhor as divisões, convenções
+  HTML - How to better include divisions, conventions
