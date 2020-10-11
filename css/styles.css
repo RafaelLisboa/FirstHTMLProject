@@ -104,6 +104,7 @@ html, body {
     font-weight: normal;
 }
 .container-details p{
+    min-width: 1200px;
     width: 698px;
     display: inline-block;
     text-align: justify;
