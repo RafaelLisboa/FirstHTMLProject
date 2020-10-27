@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 html, body {
-    height: 100%;
+  
+  height: 100%;
 }
 .header{
     width: 100%;
@@ -31,8 +32,9 @@ html, body {
 .container-banner .center{
     max-width: 1280px;
 }
-.input{
-    width: 440px;
+form{
+    width: 100%;
+    max-width: 440px;
     background-color: white;
     height: 100%;
     float: right;
@@ -40,19 +42,21 @@ html, body {
     padding: 15px;
     text-align: center;
 }
-.input form h2{
+.input-container  h2{
     font-size: 20px;
     font-weight: normal;
     color: #999;
     margin: 20px auto;
 }
-.input form span, p{
+.input-container span,p{
     font-size: 17px;
     color: #727272;
     display: inline-block;
     width: 100%;
     text-align: left;
 }
+
+
 .input-container{
     margin: 40px auto;
 }
@@ -88,8 +92,8 @@ html, body {
 .arrow{
     background-image: url("../images/arrow.png");
     top: 70px;
-    left: 50%;
-    margin-left: -20px;
+    left: calc(50% - 20px);
+
     width: 40px;
     height: 40px;
     background-size: 100% 100%;
@@ -98,34 +102,37 @@ html, body {
 }
 .icons .center{
     width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .icons>h1{
     text-align: center;
-    margin-top: 40px;f
+    margin-top: 40px;
     font-size: 22px;
 }
 .icon-container{
+    display: inline-block;
     margin-top: 20px;
     text-align: center;
-    width: 33%;
-    display: inline-block;
-    padding: 0 10px;
+    width: 100%;
+    padding: 0 30px;
 }
 .icon-container p{
     text-align: justify;
-    margin-top: 5px;
+    margin: 10px 0;
 
 }
 
-@media (min-width: 768px) and (max-width: 979px){
+@media screen and (min-width: 798px){
     .input{
         width:100%;
     }
     .icon-container{
-        display: block;
+        display: inline-block;
         margin: 0 auto;
-        width:100%;
-        padding: 0 80px;
+        width:33.33%;
+        padding: 0 20px;
 
     }
     .icon-container p{
