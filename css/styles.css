@@ -42,19 +42,21 @@ form{
     padding: 15px;
     text-align: center;
 }
-.form form h2{
+.input-container  h2{
     font-size: 20px;
     font-weight: normal;
     color: #999;
     margin: 20px auto;
 }
-.form form span, p{
+.input-container span,p{
     font-size: 17px;
     color: #727272;
     display: inline-block;
     width: 100%;
     text-align: left;
 }
+
+
 .input-container{
     margin: 40px auto;
 }
@@ -63,7 +65,7 @@ form{
     padding: 5px;
     font-size: 17px;
 }
-.input-submit input{
+.submit-btn input{
     margin-top: 25px;
     width: 90%;
     padding: 10px;
@@ -72,16 +74,16 @@ form{
     color: white;
     border-radius: 10px;
 }
-.container-details{
+.details{
     color: black;
     padding: 50px 2%;
     background-color: #999999;
 }
-.container-details>.center{
+.details>.center{
     width: 100%;
     max-width: 600px;
 }
-.container-details > .center >h2{
+.details > .center >h2{
     text-align: center;
     color: #3e3e3e;
     margin-bottom: 30px;
@@ -90,8 +92,8 @@ form{
 .arrow{
     background-image: url("../images/arrow.png");
     top: 70px;
-    left: 50%;
-    margin-left: -20px;
+    left: calc(50% - 20px);
+
     width: 40px;
     height: 40px;
     background-size: 100% 100%;
@@ -100,6 +102,9 @@ form{
 }
 .icons .center{
     width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .icons>h1{
     text-align: center;
@@ -107,27 +112,27 @@ form{
     font-size: 22px;
 }
 .icon-container{
+    display: inline-block;
     margin-top: 20px;
     text-align: center;
-    width: 33%;
-    display: inline-block;
-    padding: 0 10px;
+    width: 100%;
+    padding: 0 30px;
 }
 .icon-container p{
     text-align: justify;
-    margin-top: 5px;
+    margin: 10px 0;
 
 }
 
-@media (min-width: 768px) and (max-width: 979px){
+@media screen and (min-width: 798px){
     .input{
         width:100%;
     }
     .icon-container{
-        display: block;
+        display: inline-block;
         margin: 0 auto;
-        width:100%;
-        padding: 0 80px;
+        width:33.33%;
+        padding: 0 20px;
 
     }
     .icon-container p{
