@@ -14,5 +14,5 @@ Project with HTML and CSS Pure
 
   HTML - How to better include divisions, conventions
   
-### Link do Projeto
+### Link of Project
 https://rafaellisboa.github.io/FirstHTMLProject/
